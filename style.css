@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZZ0VheMqoRP5WmUXYfO6expXcPlAQUh5mt_iQk_7F4A&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 3000px;
+    background-attachment: fixed;
+}
+
+.info{
+    display: flex;
+    background: black;
+    color: white;
+    height: 400px;
+    padding: 100px;
+}
+
+img{
+    width: 150px;
+    position: relative;
+    top: -180px;
+    left: -30px;
+}
+
+.header h1{
+    text-align: center;
+   transform: translateY(60px);
+}
+
+.nav ul{
+    display: flex; 
+}
+
+.nav ul,li{
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: right;
+    color: yellow;
+    transition: 0.3s;
+    line-height: 200px;
+}
+
+a:visited{
+    color: gold;
+}
+
+button{
+    padding: 15px;
+    border-radius: 15px;
+    background: gold;
+    color: black;
+    transition: 0.3s;
+    font-size: large;
+    transform: translateY(75px);
+}
+
+button:hover{
+    background: red;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 20px;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    transform: translateY(60px);
+}
+
+a:hover{
+    color: red;
+}
+
